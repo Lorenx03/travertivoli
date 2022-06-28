@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1443.39 1443.39">
+	<defs>
+		<style>
+			.cls-1,.cls-2,.cls-3{
+				fill:none;
+				stroke:#FFFFFF;
+				stroke-miterlimit:10;
+			}
+
+			.cls-1{
+				stroke-width:60px;
+			}
+			
+			.cls-2{
+				stroke-width:41px;
+			}
+			
+			.cls-3{
+				stroke-width:80px;
+			}
+			
+		</style>
+	</defs>
+	<g id="Livello_2" data-name="Livello 2">
+		<g id="Livello_1-2" data-name="Livello 1">
+			<circle class="cls-1" cx="721.7" cy="721.7" r="691.7"/>
+			<path class="cls-2" d="M685,1174.39,348,979.83a73.4,73.4,0,0,1-36.71-63.58V527.14A73.4,73.4,0,0,1,348,463.56L685,269a73.45,73.45,0,0,1,73.42,0l337,194.56a73.42,73.42,0,0,1,36.71,63.58V916.25a73.42,73.42,0,0,1-36.71,63.58l-337,194.56A73.4,73.4,0,0,1,685,1174.39Z"/>
+			<line class="cls-3" x1="721.7" y1="720.81" x2="311.3" y2="484.75"/>
+			<line class="cls-3" x1="516.5" y1="602.78" x2="516.5" y2="1077.11"/>
+			<line class="cls-3" x1="926.9" y1="602.78" x2="926.9" y2="1077.11"/>
+			<line class="cls-2" x1="721.7" y1="1195.58" x2="721.7" y2="720.81"/>
+			<line class="cls-3" x1="1132.1" y1="484.75" x2="721.7" y2="721.7"/>
+		</g>
+	</g>
+</svg>

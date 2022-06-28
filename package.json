@@ -1,0 +1,25 @@
+{
+  "name": "travertivoli-sveltekit",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "package": "svelte-kit package",
+    "preview": "svelte-kit preview"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/adapter-static": "^1.0.0-next.28",
+    "@sveltejs/kit": "next",
+    "node-sass": "^7.0.1",
+    "sass": "^1.49.9",
+    "svelte": "^3.44.0",
+    "svelte-preprocess": "^4.10.4"
+  },
+  "type": "module",
+  "dependencies": {
+    "animejs": "^3.2.1",
+    "svelte-cubed": "^0.2.1",
+    "three": "^0.141.0"
+  }
+}
