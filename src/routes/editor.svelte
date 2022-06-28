@@ -209,7 +209,7 @@
 
 		.scene{
 			position: relative;
-			height: 70vh;
+			height: 67vh;
 			border-radius: 0 0 20px 20px;
 			overflow: hidden;
 			background-image: url('/TraverWork.webp');
@@ -218,7 +218,7 @@
 
 		.bottomPane{
 			position: fixed;
-			height: 30vh;
+			height: 33vh;
 			width: 100%;
 			bottom: 0;
 			display: flex;
