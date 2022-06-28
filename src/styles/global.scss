@@ -75,3 +75,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 
+//Phone mini
+@media only screen and (max-width: 500px) {
+    :root {
+        font-size: 8px;
+    }
+}
+
+
