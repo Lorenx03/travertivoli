@@ -381,7 +381,7 @@
             <input type="text" id="Email" name="Email" placeholder="E-mail" required>
 
             
-            <textarea id="text" name="Messaggio" placeholder="Messaggio" required></textarea>
+            <textarea id="text" name="Messaggio" placeholder="Messaggio" required maxlength="120"></textarea>
 
             <input type="submit" value="Invia" id="SubButt">
         </form>
