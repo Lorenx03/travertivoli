@@ -739,7 +739,7 @@
 
 			.scene{
 				position: relative;
-				height: 40vh;
+				height: 36vh;
 				border-radius: 0 0 20px 20px;
 				overflow: hidden;
 				background-image: url('/TraverWork.webp');
@@ -747,10 +747,11 @@
 
 
 			.bottomPane{
-				position: fixed;
-				height: 52vh;
+				position: relative;
+				height: 60vh;
 				width: 100%;
-				bottom: 0;
+				/*bottom: 0;*/
+				overflow: auto;
 				display: flex;
 				justify-content: flex-start;
 				flex-direction: column;
@@ -1213,7 +1214,7 @@
 			</div>
 
 
-			<span style="opacity: 0.4">(il prezzo di spezione e lavorazione non è incluso nel prezzo)</span>
+			<span style="opacity: 0.4; text-align: center;">(il costo di spezione e lavorazione non è incluso nel prezzo)</span>
 
 			<span>{TraverClick}</span>
 		</div>
