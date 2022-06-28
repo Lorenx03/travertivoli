@@ -2,16 +2,22 @@
     let SuccessBannerPos = 100;
     let form;
 
+    let FormSent = false;
+
     function SubmitForm(e){
-        const data = new FormData(form);
-        const action = e.target.action;
-        fetch(action, {
-        method: 'POST',
-        body: data,
-        })
-        .then(() => {
-            PostSuccess();
-        })
+        if(FormSent == false)
+        {
+            FormSent = true;
+            const data = new FormData(form);
+            const action = e.target.action;
+            fetch(action, {
+            method: 'POST',
+            body: data,
+            })
+            .then(() => {
+                PostSuccess();
+            })
+        }
     }
 
 
