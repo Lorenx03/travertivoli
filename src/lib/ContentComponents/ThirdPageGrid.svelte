@@ -214,7 +214,7 @@
 
   <div class="text textContainer">
     <h1>travertino</h1>
-    <p>Il travertino è una pietra naturale incredibilmente resistente e compatta, molto utilizzata in edilizia. In particolare, il travertino è una roccia sedimentaria chimica costituita soprattutto da minerali di carbonato di calcio.
+    <p>Il travertino è una pietra naturale incredibilmente resistente e compatta, molto utilizzata in edilizia. In particolare, il travertino è una roccia sedimentaria costituita soprattutto da minerali di carbonato di calcio.
         <br>
         <br>
     Il termine travertino deriva da “tiburtinus” poiché proveniente in larga misura da un’area sotto Tivoli. Il travertino, infatti, fu uno dei materiali più utilizzati dai romani per la costruzione di edifici e opere pubbliche tanto da essere poi diventato famoso proprio con l’appellativo travertino romano.

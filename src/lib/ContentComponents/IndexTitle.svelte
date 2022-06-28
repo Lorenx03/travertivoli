@@ -6,7 +6,7 @@
             <br />
             Tivoli
             <br />
-            <span>Premium traverten custom solutions.</span>
+            <span>Il lusso su misura</span>
         </h1>
 
         <img src="logo.svg" alt="logo" />
@@ -48,22 +48,22 @@
                 line-height: 100%;
                 text-align: left;
                 user-select: none;
-                font-size: 18rem;
-                transform: translateY(4rem);
+                font-size: 15rem;
+                transform: translateY(2rem);
                 
 
                 span{
                     font-size: 2rem;
                     line-height: 1;
                     vertical-align: top;
-                    margin-left:3.6rem;
+                    margin-left:3.1rem;
                 }
             }
 
             img{
-                height: 60%;
+                height: 50%;
                 -webkit-user-drag: none;
-                transform: translateY(-2rem);
+                transform: translateY(-3rem);
             }
         }
 
@@ -98,7 +98,7 @@
                     
 
                     span{
-                        margin-left: 0;
+                        margin-left: 2.4rem;
                         font-size: 1.8rem;
                     }
                 }
