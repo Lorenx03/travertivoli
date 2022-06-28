@@ -224,7 +224,7 @@ import FourthPage from "$lib/ContentComponents/FourthPage.svelte";
 
 
 <svelte:head>
-    <title>Home</title>
+    <title>TraverTivoli</title>
     <link rel="preload" as="image" href="/Index-BG.jpg"/>
 
     <link rel="preload" as="image" href="/TraverWork.webp"/>

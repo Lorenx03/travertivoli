@@ -1016,6 +1016,11 @@
 
 
 
+<svelte:head>
+    <title>Editor</title>
+</svelte:head>
+
+
 
 <div class="Redirect" style="transform: translateY({RedirectY}%);">
 
