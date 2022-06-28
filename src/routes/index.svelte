@@ -13,7 +13,7 @@
     import PageIndicator from "$lib/PageIndicator.svelte";
     import LoadingAnim from "$lib/LoadingAnim.svelte";
     import ThirdPage from "$lib/ContentComponents/ThirdPageGrid.svelte";
-import FourthPage from "$lib/ContentComponents/FourthPage.svelte";
+    import FourthPage from "$lib/ContentComponents/FourthPage.svelte";
     
     let loaded = false;
     let LoadingScreenLife = true;
@@ -205,13 +205,13 @@ import FourthPage from "$lib/ContentComponents/FourthPage.svelte";
 //Detect Mobile
     
 
+    let DeviceWidth = 1920;
+    let Mobile = false;
 
-
-
-
-
-
-
+    $:if(DeviceWidth < 1000)
+        Mobile = true;
+    else
+        Mobile = false;
 
 
 </script>
@@ -242,6 +242,8 @@ import FourthPage from "$lib/ContentComponents/FourthPage.svelte";
 
 <svelte:body on:mousewheel|passive={scroll} on:touchstart|passive={TouchStart} on:touchend|passive={TouchEnd} />
 
+<svelte:window bind:outerWidth={DeviceWidth} />
+
 {#if LoadingScreenLife}
    <LoadingAnim visible={loaded} /> 
 {/if}
@@ -256,7 +258,7 @@ import FourthPage from "$lib/ContentComponents/FourthPage.svelte";
 </Block>
 
 {#if ShowPage[0]}
-    <PeaksTransition ShowPage={ShowPage} />
+    <PeaksTransition ShowPage={ShowPage} MobileOpt={Mobile} />
 {/if}
     
 
