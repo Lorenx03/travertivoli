@@ -71,9 +71,9 @@
                 padding: 0.7rem;
                 font-size: 1.5rem;
                 font-family: 'Poppins', sans-serif;
-                border: 2px white solid;
-                background-color: rgba(0, 0, 0, 0);
-                color: white;
+                border: 4px var(--Traver2) solid;
+                background-color: var(--Traver1);
+                color: var(--Traver5);
                 transition: 700ms;
                 cursor: pointer;
                 letter-spacing: 2px;
@@ -82,7 +82,7 @@
 
             button:hover{
                 background-color: var(--Traver1);
-                border: 2px var(--Traver1) solid;
+                border: 4px var(--Traver5) solid;
                 color: var(--Traver5);
                 transform: scale(1.1);
             }
@@ -94,6 +94,10 @@
     @media only screen and (max-width: 1200px) {
         .revealBox{
             p{
+                font-size: 1.6rem;
+            }
+
+            b{
                 font-size: 1.6rem;
             }
 
@@ -133,7 +137,7 @@
 
     <div class="revealBox" bind:this={revealBox} style="border-bottom:3px solid rgba(255, 255, 255, {BorderOpacityNumber});">
         <p>
-        Siamo un’azienda che si occupa della creazione, lavorazione e consegna di mattonelle in <b>travertino</b>, completamente personalizzabili.
+        Siamo un’azienda che si occupa della creazione, lavorazione e consegna di pezzi in <b>travertino</b>, completamente personalizzabili.
         <br><br>
         Ci avvaliamo delle ultime <b>tecnologie</b> e processi industriali per offrire ai nostri clienti un prodotto di <b>qualità</b> e <b>duraturo</b>.
         <br><br>

@@ -111,6 +111,11 @@
         flex-direction: column;
     }
 
+    img
+        {
+            margin-bottom: 1.3rem;
+        }
+
 
     }
 
@@ -126,9 +131,9 @@
         <img src={srcTraver} alt="travertino">
 
         <div class="FlexColumn">
-            <span>Larghezza: <h2>{X}m</h2></span>
-            <span>Profondità: <h2>{Y}m</h2></span>
-            <span>Altezza: <h2>{Z}m</h2></span> 
+            <span>Larghezza: <h2>{X}cm</h2></span>
+            <span>Profondità: <h2>{Y}cm</h2></span>
+            <span>Altezza: <h2>{Z}cm</h2></span> 
         </div>
         
 

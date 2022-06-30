@@ -15,9 +15,19 @@
 
 	let OpenCart = false;
 
-    let width = 1;
-	let height = 0.5;
-	let depth = 1;
+    let width = 100;
+	let height = 50;
+	let depth = 100;
+
+	let widthReduced = 1;
+	let heightReduced = 1;
+	let depthReduced = 1;
+
+	$:widthReduced = width/100;
+	$:heightReduced = height/100;
+	$:depthReduced = depth/100;
+	
+
 	let quantity = 1;
 	let color = 0;
 	let price = 3000;
@@ -25,7 +35,7 @@
 	let TraverClick = "Classico";
 
 	let currentPrice = 0;
-	$:currentPrice = width*height*depth*price;
+	$:currentPrice = widthReduced*heightReduced*depthReduced*price;
 
 
 	let Orders = [];
@@ -53,9 +63,9 @@
 		setTimeout(() => {
 			OrderSuccess = false;
 
-			width = 1;
-			height = 0.5;
-			depth = 1;
+			width = 100;
+			height = 50;
+			depth = 100;
 			quantity = 1;
 			color = 0;
 			price = 3000;
@@ -276,14 +286,14 @@
 						text-align: center;
 						border: 1px solid rgba(0, 0, 0, 0.116);
 						border-radius: 10px;
-						width: 2.2rem;
+						width: 3rem;
 					}
 				}
 			}
 
 
 			.TraverTot{
-				min-width: 350px!important;
+				min-width: 600px!important;
 
 				button{
 					width: 40%;
@@ -1147,11 +1157,11 @@
 			<SC.Mesh
 				geometry={new THREE.BoxGeometry()}
 				material={new THREE.MeshStandardMaterial({ map:texture })}
-				scale={[width, height, depth]}
+				scale={[widthReduced, heightReduced, depthReduced]}
 				rotation={[0, spin, 0]}
 			/>
 			<SC.PerspectiveCamera position={[1, 1, 3]} />
-			<SC.OrbitControls enableZoom={false} enablePan={false} />
+			<SC.OrbitControls enableZoom={true} enablePan={false} />
 			<SC.AmbientLight intensity={0.6} />
 			<SC.DirectionalLight intensity={0.6} position={[2, 3, 2]} />
 		</SC.Canvas>
@@ -1226,23 +1236,23 @@
 
 			<label>
 				<span>Y:</span>
-				<input type="range" bind:value={width} min={0.1} max={3} step={0.01} /> 
-				<input type="number" min={0.1} max={3} bind:value={width} step={0.1} />
-				m
+				<input type="range" bind:value={width} min={1} max={300} step={0.01} /> 
+				<input type="number" min={1} max={300} bind:value={width} step={0.1} />
+				cm
 			</label>
 			<label>
 				<span>X:</span>
-				<input type="range" bind:value={depth} min={0.1} max={3} step={0.01} /> 
-				<input type="number" min={0.1} max={3} bind:value={depth} step={0.1} />
-				m
+				<input type="range" bind:value={depth} min={1} max={300} step={0.01} /> 
+				<input type="number" min={1} max={300} bind:value={depth} step={0.1} />
+				cm
 			</label>
 			<label>
 				<span>Z:</span>
-				<input type="range" bind:value={height} min={0.1} max={0.5} step={0.01} />
+				<input type="range" bind:value={height} min={1} max={150} step={0.01} />
 				{#key depth}
-				<input type="number" min={0.1} max={3} bind:value={height} step={0.1}/>
+				<input type="number" min={1} max={150} bind:value={height} step={0.1}/>
 				{/key}
-				m
+				cm
 			</label>
 		</div>
 
