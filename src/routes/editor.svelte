@@ -755,7 +755,7 @@
 				height: 36vh;
 				border-radius: 0 0 20px 20px;
 				overflow: hidden;
-				background-image: url('/TraverWork.webp');
+				background-image: url('/TraverWorkBlur.webp');;
 			}
 
 
@@ -823,7 +823,7 @@
 							text-align: center;
 							border: 1px solid rgba(0, 0, 0, 0.116);
 							border-radius: 10px;
-							width: 2.2rem;
+							width: 3.5rem;
 						}
 					}
 				}
