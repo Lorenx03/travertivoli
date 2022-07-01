@@ -318,7 +318,7 @@
                         margin-top: 1rem;
                         width: 100%;
                         border: 4px solid black;
-                        padding: 0.7rem;
+                        padding: 0.8rem 2rem;
                         font-size: 1.4rem;
                         font-family: 'Poppins', sans-serif;
                         background-color: white;
@@ -328,6 +328,13 @@
                         cursor: pointer;
                     }
                 }
+            }
+        }
+
+
+        .footer {
+            p{
+                font-size: 0.5rem;
             }
         }
     }
