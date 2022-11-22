@@ -1,5 +1,5 @@
 # TraverTivoli
-> Sito che emula un "e-shop" di un azienda di travertini fittizia
+Sito che emula un "e-shop" di un azienda di travertini fittizia
 
 ### Tecnologie usate:
 - SvelteKit
@@ -7,6 +7,6 @@
 - SCSS
 - And more...
 
-> ### Realizzato da Lorenzo Franceschelli
+> #### Realizzato da Lorenzo Franceschelli
 
-## [TraverTivoli](https://travertivoli.vercel.app/)
+## Link:  [TraverTivoli](https://travertivoli.vercel.app/)
